@@ -34,4 +34,6 @@ foreach (string word in storyWords)
         newStory += word + " ";
     }
 }
+Console.WriteLine("\nHere's your Mad Libs story:");
+Console.WriteLine(newStory);
 
